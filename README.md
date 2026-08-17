@@ -20,5 +20,39 @@ forking, and command execution.
 - Linux / Unix system calls
 - Process management
 
-## Notes
-Designed to demonstrate core operating system and systems programming concepts.
+## How To Run
+
+# SSI (Simple Shell Interpreter)
+
+## Requirements
+
+- GCC
+- readline development library
+
+Install readline if needed:
+```bash
+sudo apt install libreadline-dev
+```
+
+## Build
+
+```bash
+make
+```
+
+This compiles `ssi.c` into an executable called `ssi`.
+
+## Run
+
+```bash
+./ssi
+```
+
+## Clean
+
+Remove the compiled binary and object files:
+
+```bash
+make clean
+```
+
