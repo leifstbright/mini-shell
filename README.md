@@ -20,10 +20,6 @@ forking, and command execution.
 - Linux / Unix system calls
 - Process management
 
-## How To Run
-
-# SSI (Simple Shell Interpreter)
-
 ## Requirements
 
 - GCC
